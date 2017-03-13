@@ -1,0 +1,17 @@
+C:\Users\frotveit\Documents\Visual Studio 2010\Projects\RayTracerCSharp\RayTracerCSharp\obj\Release\RayTracerCSharp.exe
+C:\Users\frotveit\Documents\Visual Studio 2010\Projects\RayTracerCSharp\RayTracerCSharp\obj\Release\RayTracerCSharp.pdb
+C:\Users\frotveit\Documents\Visual Studio 2010\Projects\RayTracerCSharp\RayTracerCSharp\bin\Release\RayTracerCSharp.exe
+C:\Users\frotveit\Documents\Visual Studio 2010\Projects\RayTracerCSharp\RayTracerCSharp\bin\Release\RayTracerCSharp.pdb
+C:\Users\frotveit\Documents\Visual Studio 2010\Projects\RayTracerCSharp\RayTracerCSharp\obj\Release\ResolveAssemblyReference.cache
+C:\Users\frotveit\Documents\Visual Studio 2010\Projects\RayTracerCSharp\RayTracerCSharp\obj\Release\RayTracerCSharp.Properties.Resources.resources
+C:\Users\frotveit\Documents\Visual Studio 2010\Projects\RayTracerCSharp\RayTracerCSharp\obj\Release\GenerateResource.read.1.tlog
+C:\Users\frotveit\Documents\Visual Studio 2010\Projects\RayTracerCSharp\RayTracerCSharp\obj\Release\GenerateResource.write.1.tlog
+C:\Users\frotveit\Documents\Visual Studio 2010\Projects\RayTracerCSharp\RayTracerCSharp\obj\Release\RayTracerCSharp.MainForm.resources
+D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Release\RayTracerCSharp.exe
+D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Release\RayTracerCSharp.pdb
+D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\bin\Release\RayTracerCSharp.exe
+D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\bin\Release\RayTracerCSharp.pdb
+D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Release\RayTracerCSharp.csprojResolveAssemblyReference.cache
+D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Release\RayTracerCSharp.MainForm.resources
+D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Release\RayTracerCSharp.Properties.Resources.resources
+D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Release\RayTracerCSharp.csproj.GenerateResource.Cache
