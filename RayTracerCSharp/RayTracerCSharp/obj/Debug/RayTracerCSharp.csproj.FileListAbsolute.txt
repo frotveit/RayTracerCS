@@ -1,8 +1,0 @@
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Debug\RayTracerCSharp.exe
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Debug\RayTracerCSharp.pdb
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\bin\Debug\RayTracerCSharp.exe
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\bin\Debug\RayTracerCSharp.pdb
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Debug\RayTracerCSharp.MainForm.resources
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Debug\RayTracerCSharp.Properties.Resources.resources
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Debug\RayTracerCSharp.csproj.GenerateResource.Cache
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Debug\RayTracerCSharp.csprojResolveAssemblyReference.cache

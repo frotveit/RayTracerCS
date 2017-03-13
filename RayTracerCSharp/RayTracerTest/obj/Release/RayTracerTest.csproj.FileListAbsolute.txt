@@ -1,8 +1,0 @@
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerTest\bin\Release\RayTracerTest.dll
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerTest\bin\Release\RayTracerTest.pdb
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerTest\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerTest\obj\Release\RayTracerTest.csprojResolveAssemblyReference.cache
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerTest\obj\Release\RayTracerTest.dll
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerTest\obj\Release\RayTracerTest.pdb
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerTest\bin\Release\RayTracerCSharp.exe
-D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerTest\bin\Release\RayTracerCSharp.pdb
