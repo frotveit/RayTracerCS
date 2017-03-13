@@ -119,35 +119,34 @@ namespace RayTracerCSharp
                     // Do not add reflection if inside object
                     // Find Reflected impact (16.16, 16.55)
                     double nDotV = normal.ComputeDotProduct(v);
-                    Vector reflectionVectorBasis = normal.Multiply(2*nDotV);
+                    Vector reflectionVectorBasis = normal.Multiply(2 * nDotV);
                     Vector reflectionVector = reflectionVectorBasis.MinusVector(v);
                     reflectionVector.Normalise();
                     Ray reflectionRay =
                         new Ray(hitData.IntersectionPoint, reflectionVector);
                     double intensityReflectedRay
                         = Rayer.RayObjects(objectList, reflectionRay, traceDepth + 1, false, null);
-                    lightIntensity += SpecularReflectionCoeff*intensityReflectedRay;
+                    lightIntensity += SpecularReflectionCoeff * intensityReflectedRay;
                 }
-                if (TransmissionCoeff > 0)
+                if (IsObjectTransparent())
                 {
-                    // if object is transparent
                     // Find Refracted/Transmitted impact (16.55)
                     if (!inside)
                     {
                         // not inside of object
                         double nDotV = normal.ComputeDotProduct(v);
                         double transparencyIndicesOfRefraction =
-                            TransparencyIndicesOfRefractionAir/TransparencyIndicesOfRefractionObj;
+                            TransparencyIndicesOfRefractionAir / TransparencyIndicesOfRefractionObj;
                         double cosT = Math.Sqrt(1 - transparencyIndicesOfRefraction
-                                                *transparencyIndicesOfRefraction
-                                                *(1 - nDotV));
-                        Vector nBasis = normal.Multiply(transparencyIndicesOfRefraction*nDotV - cosT);
+                                                * transparencyIndicesOfRefraction
+                                                * (1 - nDotV));
+                        Vector nBasis = normal.Multiply(transparencyIndicesOfRefraction * nDotV - cosT);
                         Vector vBasis = v.Multiply(transparencyIndicesOfRefraction);
                         Vector transmittedVector = nBasis.MinusVector(vBasis);
                         Ray transmittedRay = new Ray(hitData.IntersectionPoint, transmittedVector);
                         double intensityRefractedTransmittedRay
                             = Rayer.RayObjects(objectList, transmittedRay, traceDepth, true, this);
-                        lightIntensity += TransmissionCoeff*intensityRefractedTransmittedRay;
+                        lightIntensity += TransmissionCoeff * intensityRefractedTransmittedRay;
                     }
                     else
                     {
@@ -155,17 +154,17 @@ namespace RayTracerCSharp
                         Vector negNormal = normal.Multiply(-1);
                         double nNdotV = negNormal.ComputeDotProduct(v);
                         double transparencyIndicesOfRefraction =
-                            TransparencyIndicesOfRefractionObj/TransparencyIndicesOfRefractionAir;
+                            TransparencyIndicesOfRefractionObj / TransparencyIndicesOfRefractionAir;
                         double cosT = Math.Sqrt(1 - transparencyIndicesOfRefraction
-                                                *transparencyIndicesOfRefraction
-                                                *(1 - nNdotV));
-                        Vector nBasis = negNormal.Multiply(transparencyIndicesOfRefraction*nNdotV - cosT);
+                                                * transparencyIndicesOfRefraction
+                                                * (1 - nNdotV));
+                        Vector nBasis = negNormal.Multiply(transparencyIndicesOfRefraction * nNdotV - cosT);
                         Vector vBasis = v.Multiply(transparencyIndicesOfRefraction);
                         Vector transmittedVector = nBasis.MinusVector(vBasis);
                         Ray transmittedRay = new Ray(hitData.IntersectionPoint, transmittedVector);
                         double intensityRefractedTransmittedRay
                             = Rayer.RayObjects(objectList, transmittedRay, traceDepth + 1, false, null);
-                        lightIntensity += TransmissionCoeff*intensityRefractedTransmittedRay;
+                        lightIntensity += TransmissionCoeff * intensityRefractedTransmittedRay;
                     }
                 }
             }
@@ -186,6 +185,11 @@ namespace RayTracerCSharp
             }
 
             return lightIntensity;
+        }
+
+        private bool IsObjectTransparent()
+        {
+            return TransmissionCoeff > 0;
         }
 
         public DrawingObject GetNext()

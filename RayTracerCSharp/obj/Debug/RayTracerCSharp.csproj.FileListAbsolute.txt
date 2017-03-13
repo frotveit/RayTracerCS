@@ -6,3 +6,11 @@ D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Debug\RayTracerCSharp.M
 D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Debug\RayTracerCSharp.Properties.Resources.resources
 D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Debug\RayTracerCSharp.csproj.GenerateResource.Cache
 D:\Users\Get Sky\DEV\RayTracerCSharp\RayTracerCSharp\obj\Debug\RayTracerCSharp.csprojResolveAssemblyReference.cache
+D:\Users\GitHub\RayTracerCS\RayTracerCSharp\bin\Debug\RayTracerCSharp.exe
+D:\Users\GitHub\RayTracerCS\RayTracerCSharp\bin\Debug\RayTracerCSharp.pdb
+D:\Users\GitHub\RayTracerCS\RayTracerCSharp\obj\Debug\RayTracerCSharp.csprojResolveAssemblyReference.cache
+D:\Users\GitHub\RayTracerCS\RayTracerCSharp\obj\Debug\RayTracerCSharp.MainForm.resources
+D:\Users\GitHub\RayTracerCS\RayTracerCSharp\obj\Debug\RayTracerCSharp.Properties.Resources.resources
+D:\Users\GitHub\RayTracerCS\RayTracerCSharp\obj\Debug\RayTracerCSharp.csproj.GenerateResource.Cache
+D:\Users\GitHub\RayTracerCS\RayTracerCSharp\obj\Debug\RayTracerCSharp.exe
+D:\Users\GitHub\RayTracerCS\RayTracerCSharp\obj\Debug\RayTracerCSharp.pdb
