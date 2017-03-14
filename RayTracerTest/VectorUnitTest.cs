@@ -30,6 +30,20 @@ namespace RayTracerTest
             Assert.AreEqual(-2, v.Z);
         }
 
+        [TestMethod]
+        public void TestEqual()
+        {
+            Vector v1 = new Vector(2, 3, 4);
+            Vector v2 = new Vector(2, 3, 4);
+            Vector v3 = new Vector(2, 3, 1);
+
+            Assert.IsTrue(v1.Equals(v2));
+            Assert.IsFalse(v1.Equals(v3));
+
+            Assert.AreEqual(v1, v2);
+            Assert.AreNotEqual(v1, v3);
+        }
+
 
     }
 }

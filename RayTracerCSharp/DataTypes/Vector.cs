@@ -2,7 +2,7 @@
 
 namespace RayTracerCSharp
 {
-    public class Vector
+    public class Vector : IEquatable<Vector>
     {
         public double X, Y, Z;
 
@@ -71,5 +71,35 @@ namespace RayTracerCSharp
             return newVec;
         }
 
+        #region Equals
+
+        public bool Equals(Vector other)
+        {
+            return X == other.X && Y == other.Y && Z == other.Z;
+        }
+
+        public override bool Equals(Object other)
+        {
+            if (other.GetType() != typeof(Vector))
+                return false;
+            return X == ((Vector)other).X && Y == ((Vector)other).Y && Z == ((Vector)other).Z;
+        }
+
+        public static bool operator ==(Vector a, Vector b)
+        {
+            return a.Equals(b);
+        }
+
+        public static bool operator !=(Vector a, Vector b)
+        {
+            return !a.Equals(b);
+        }
+
+        public override int GetHashCode()
+        {
+            return (int)X;
+        }
+
+        #endregion Equals
     }
 }

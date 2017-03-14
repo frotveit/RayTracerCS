@@ -33,7 +33,7 @@ namespace RayTracerCSharp
     
     public override Vector ComputeNormal(Point intersPoint) {
         Vector normal = new Vector(0,0,0);
-        // normal (not normalised) = vector from center to intersection point
+        // normal (not normalized) = vector from center to intersection point
         Point center = new Point (Position);
         normal.ComputeVector( center, intersPoint );
         normal.Normalise();
